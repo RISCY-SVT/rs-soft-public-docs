@@ -1,7 +1,7 @@
 # NCNN + IME INT8 Backend: Понедельная разбивка задач  
   
 **Дата:** 2026-03-26 (v2)  
-**Проект:** Вариант 3 из [presentation_variants.md](presentation_variants.md) — NCNN + IME-ядра для YOLO11n INT8  
+**Проект:** Реализация Варианта 3 из [presentation_variants.md](presentation_variants.md) — NCNN + IME-ядра для YOLO11n INT8  
 **Исполнители:**  
 - **СТ** — Сергей Тюрин (опыт ~2 года, автор Конституции V4, NCNN fork, IME-эксперт) 
 - **АН** — Алексей Новиков (опыт ~2 недели, быстро учится) 
