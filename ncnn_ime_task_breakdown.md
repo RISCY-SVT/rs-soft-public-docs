@@ -503,3 +503,12 @@ K-120 (3x3 IGEMM) и K-140 (depthwise 3x3) — второй и третий по
 | C2PSA требует полноценной mixed-precision реализации | Средняя | Среднее | FP16 carve-out, оптимизировать позже |
 | KPI не растёт: ядра ускоряют, но fallback слои доминируют | Средняя | Высокое | Layerbench каждую неделю → оптимизировать top hotspot |
 | Конституция затягивается дольше 2 недель | Низкая | Среднее | АН параллельно занят setup + KPI, не блокирован |
+  
+  
+## Источники  
+  
+- [`K1X_NCNN_INT8_FASTEST_BACKEND_CONSTITUTION_REVISED_V4_RVA22.docx`](K1X_NCNN_INT8_FASTEST_BACKEND_CONSTITUTION_REVISED_V4_RVA22.docx) — Constitution V4  
+- [`K1X_NCNN_INT8_BACKEND_FLOWMAP_FINAL_REVISED_V4_RVA22.xlsx`](K1X_NCNN_INT8_BACKEND_FLOWMAP_FINAL_REVISED_V4_RVA22.xlsx) — Flowmap V4 (Nodes, Edges, Kernels, Rules)  
+- `plan.md` — предыдущий план (v1, одна персона)  
+- [`presentation_variants.md`](presentation_variants.md) — анализ 13 вариантов инференса  
+- IGEMM paper: https://arxiv.org/abs/1907.02129  
